@@ -12,12 +12,12 @@ export async function GET() {
         image: IMAGE_1,
         buttons: [
           {
-            label: "▶️ Play",
-          },
+            label: "▶️ Play"
+          }
         ],
-        post_url: "/api/frame",
-      },
-    ],
+        post_url: "/api/frame"
+      }
+    ]
   });
 }
 
@@ -28,4 +28,11 @@ export async function POST(req: Request) {
         image: IMAGE_2,
         buttons: [
           {
-            label: "🔁 Restart",
+            label: "🔁 Restart"
+          }
+        ],
+        post_url: "/api/frame"
+      }
+    ]
+  });
+}
